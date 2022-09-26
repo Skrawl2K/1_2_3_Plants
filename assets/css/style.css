@@ -1,0 +1,168 @@
+/* ==================== General Styles====================== */
+@font-face {
+    font-family: FredericaTheGreat;
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
+
+}
+
+@font-face {
+    font-family: Open-Sans-Light;
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: Open-Sans-Medium;
+    src: url("../fonts/OpenSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: Open-Sans-Regular;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+h1,
+h2 {
+    font-family: FredericaTheGreat;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open-Sans-Medium;
+}
+
+/* ==================== Header Styles ========================= */
+
+header {
+    padding: 20px 100px 50px 100px;
+    background-image: url("../img/Lev3_2_css-einführung_box-model_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+header article {
+
+    text-align: center;
+    width: 245px;
+    margin: 300px auto 300px auto;
+}
+
+header article h2 {
+    margin-bottom: 20px;
+}
+
+header article p {
+    margin-bottom: 30px;
+}
+
+header article a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 25px;
+}
+
+header article a:hover {
+
+    background-color: #ffffff;
+    color: black;
+}
+
+
+header nav ul li {
+    list-style-type: none;
+    width: 100px;
+    margin: 0 0 0 auto;
+    padding-bottom: 10px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ==================== Main Styles ========================= */
+
+main {
+    padding: 50px 0 50px 0;
+}
+
+main section {
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main section h2 {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+main section div {
+    border: 3px double grey;
+    display: inline-block;
+    padding: 20px 45px;
+    margin-top: 50px;
+}
+
+main section div a {
+    text-decoration: none;
+    color: black;
+}
+
+main section div a:hover {
+    text-decoration: underline;
+}
+
+
+/* ==================== Main Styles ========================= */
+
+footer {
+    background-color: #3a3b4a;
+    padding: 30px 20px 20px 20px;
+    color: white;
+}
+
+footer p {
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .footer_btn {
+    border: 1px solid #ffffff;
+    padding: 10px 25px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+footer .footer_btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
